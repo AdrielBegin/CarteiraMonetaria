@@ -9,7 +9,9 @@
     background-color: #1C1F1F;    
 }
 .textoBarraMenu{
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    display:inline;
     color: #FFFFFF;    
     font-size: medium;
     padding: 1px;

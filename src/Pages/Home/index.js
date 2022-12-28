@@ -6,8 +6,16 @@ export default function Home() {
 
     return (
       <div className="container">
-        <div className="barraMenu">        
-          <h1 className="textoBarraMenu">HOME</h1>      
+        <div className="barraMenu">    
+
+          <ul>
+            <li className="textoBarraMenu">HOME</li>            
+            <li className="textoBarraMenu">EXTRATO</li>
+            <li className="textoBarraMenu">CARTEIRA</li>
+            <li className="textoBarraMenu">TRANSFERIR</li>
+            <li className="textoBarraMenu">PERFIL</li>
+          </ul>    
+          
         </div>
           
       </div>
