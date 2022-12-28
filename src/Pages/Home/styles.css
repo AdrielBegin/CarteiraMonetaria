@@ -1,0 +1,26 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+}
+
+.barraMenu{
+    background-color: #1C1F1F;    
+}
+.textoBarraMenu{
+    flex-direction: column;
+    color: #FFFFFF;    
+    font-size: medium;
+    padding: 1px;
+}
+    
+.Applogo img {
+    float: left;
+    width: 15%;
+    border: thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+}
+
+
