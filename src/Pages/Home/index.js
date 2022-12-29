@@ -1,25 +1,31 @@
 import React from 'react'
+import coalalogo from "./logocoala.svg"
 import './styles.css';
+import {Ul, Li,ButtonEmprestimo,ButtonDoacao, ButtonInvestir,Div} from './styles';
 
 export default function Home() {
 
 
     return (
-      <div className="container">
-        <div className="barraMenu">    
-          <ul id="textoBarraMenu">
-            <li>HOME</li>            
-            <li>EXTRATO</li>
-            <li>CARTEIRA</li>
-            <li>TRANSFERIR</li>
-            <li>PERFIL</li>
-          </ul>  
+      <div className="container">      
+            
+        <div className="barraMenu">
+        <Ul>
+          <Li>HOME</Li>            
+          <Li>EXTRATO</Li>
+          <Li>CARTEIRA</Li>
+          <Li>TRANSFERIR</Li>
+          <Li>PERFIL</Li>
+        </Ul>  
         </div>
-          <div>
-            <button className="butaoEmprestimo">EMPRESTIMO</button><br/>
-            <button className="butaoEmprestimo">DOAÇOES</button><br/>
-            <button className="butaoEmprestimo">INVESTIR</button>
-          </div>          
+        <Div>
+          <p>COALA</p>
+        </Div>
+        <div>
+          <ButtonEmprestimo>EMPRESTIMO</ButtonEmprestimo>
+          <ButtonDoacao>DOAÇÕES</ButtonDoacao>
+          <ButtonInvestir>INVESTIR</ButtonInvestir>
+        </div>          
       </div>
     );
   }
