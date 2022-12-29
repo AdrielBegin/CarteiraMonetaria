@@ -29,6 +29,13 @@ button {
     position: absolute;
 }
 
+img{
+    background-image: url('./logocoala.svg');
+    background-size: cover;    
+    background-position:center;
+    text-align: center;   
+}
+
 
     
 

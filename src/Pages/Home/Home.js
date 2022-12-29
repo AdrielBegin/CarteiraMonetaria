@@ -18,9 +18,18 @@ export default function Home() {
           <Li>PERFIL</Li>
         </Ul>  
         </div>
-        <Div>
+
+        {/* <Div>
           <p>COALA</p>
-        </Div>
+        </Div> */}
+
+        <div>
+          <img src={coalalogo} />
+          <div>
+            <h1>COALA</h1>
+          </div>
+        </div>
+        
         <div>
           <ButtonEmprestimo>EMPRESTIMO</ButtonEmprestimo>
           <ButtonDoacao>DOAÇÕES</ButtonDoacao>
