@@ -7,17 +7,19 @@ export default function Home() {
     return (
       <div className="container">
         <div className="barraMenu">    
-
-          <ul>
-            <li className="textoBarraMenu">HOME</li>            
-            <li className="textoBarraMenu">EXTRATO</li>
-            <li className="textoBarraMenu">CARTEIRA</li>
-            <li className="textoBarraMenu">TRANSFERIR</li>
-            <li className="textoBarraMenu">PERFIL</li>
-          </ul>    
-          
+          <ul id="textoBarraMenu">
+            <li>HOME</li>            
+            <li>EXTRATO</li>
+            <li>CARTEIRA</li>
+            <li>TRANSFERIR</li>
+            <li>PERFIL</li>
+          </ul>  
         </div>
-          
+          <div>
+            <button className="butaoEmprestimo">EMPRESTIMO</button><br/>
+            <button className="butaoEmprestimo">DOAÇOES</button><br/>
+            <button className="butaoEmprestimo">INVESTIR</button>
+          </div>          
       </div>
     );
   }
