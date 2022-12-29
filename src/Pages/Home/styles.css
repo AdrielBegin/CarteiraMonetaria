@@ -3,26 +3,33 @@
     margin: 0;
     padding: 0;
     font-family: system-ui;
+    box-sizing: border-box;
 }
 
 .barraMenu{
     background-color: #1C1F1F;    
 }
-.textoBarraMenu{
-    flex-direction: row;
-    justify-content: space-between;
-    display:inline;
-    color: #FFFFFF;    
-    font-size: medium;
-    padding: 1px;
+#textoBarraMenu{    
+    list-style: none;
+    padding: 9px;
+    text-align: center;    
 }
+li{
+    display: inline;
+    color: #FFFFFF;
+    padding: 60px;     
+
+}
+#textoBarraMenu li{
+  
+ }
+
+ 
+button {
+    position: absolute;
+}
+
+
     
-.Applogo img {
-    float: left;
-    width: 15%;
-    border: thin solid;
-    padding: 5px;
-    margin: 0px 10px 10px 0;
-}
 
 
