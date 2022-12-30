@@ -1,12 +1,11 @@
 import React from 'react'
-import Home from './Pages/Home/Home';
+import Home from './Pages/Home/home';
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">       
-   
+      <header className="App-header">      
         <Home/>
       </header>
     </div>

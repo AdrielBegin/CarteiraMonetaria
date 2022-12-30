@@ -3,9 +3,7 @@ import coalalogo from "./logocoala.svg"
 import './styles.css';
 import {Ul, Li,ButtonEmprestimo,ButtonDoacao, ButtonInvestir,Div} from './styles';
 
-export default function Home() {
-
-
+export default function Home() {  
     return (
       <div className="container">      
             
